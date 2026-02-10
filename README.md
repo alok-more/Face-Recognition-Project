@@ -1,1 +1,28 @@
-## Face Recognition Using SQL Database Project
+# 🎯 Face Recognition System using OpenCV & SQLite
+
+A real-time **Face Recognition System** built using **Python**, **OpenCV (LBPH algorithm)**, and **SQLite**.  
+The system captures face images, trains a model, stores user data in a database, and recognizes faces using a webcam.
+
+---
+
+## 📌 Features
+
+- 📸 Capture face images using webcam
+- 🧠 Train model using **LBPH Face Recognizer**
+- 🗄️ Store user details (ID, Name, Age) in **SQLite**
+- 🔍 Real-time face detection & recognition
+- 🧑 Display recognized person's name and age
+- ❌ Shows **Unknown** for unrecognized faces
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.13
+- OpenCV (opencv-contrib-python)
+- NumPy
+- Pillow (PIL)
+- SQLite
+- Haar Cascade Classifier
+
+---
